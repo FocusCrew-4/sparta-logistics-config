@@ -15,3 +15,10 @@ logging:
     root: INFO
     org.hibernate.SQL: OFF
     org.hibernate.type.descriptor.sql.BasicBinder: OFF
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-server:18080/eureka/
+  instance:
+    hostname: member-service
