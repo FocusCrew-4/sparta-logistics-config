@@ -8,6 +8,7 @@ spring:
     show-sql: false
     properties:
       hibernate:
+        ddl-auto: create
         format_sql: false
 
 logging:
