@@ -15,8 +15,9 @@ spring:
   h2:
     console:
       enabled: false
-  springdoc:
-    swagger-ui:
-      path: /swagger-ui
-      operations-sorter: method
-      tags-sorter: alpha
+      
+springdoc:
+  swagger-ui:
+    path: /swagger-ui
+    operations-sorter: method
+    tags-sorter: alpha
