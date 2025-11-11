@@ -16,6 +16,10 @@ spring:
     console:
       enabled: false
 
+eureka:
+  instance:
+    prefer-ip-address: true
+
 management:
   zipkin:
     tracing:
